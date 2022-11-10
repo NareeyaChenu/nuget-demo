@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangeVersion>latest</LangeVersion>
+    <PackageId>Winona11.9.2022Test</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>team</Authors>
+    <Company>winona</Company>
+    <IsPackage>true</IsPackage>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+</Project>

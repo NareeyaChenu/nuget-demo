@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "Api.GrpcClientSv": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5079;https://localhost:7162",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

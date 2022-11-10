@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "Api.GrpcClientSv";
+
+package article;
+
+// The greeting service definition.
+// The greeting service definition.
+service Article {
+  // Sends a greeting
+  rpc Get (GetRequest) returns (GetReply);
+}
+
+// The request message containing the user's name.
+message GetRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message GetReply {
+  string message = 1;
+}
