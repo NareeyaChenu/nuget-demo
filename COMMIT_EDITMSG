@@ -1,0 +1,20 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Changes to be committed:
+#	deleted:    .editorconfig
+#	deleted:    .gitignore
+#	deleted:    .prettierignore
+#	deleted:    .prettierrc
+#	deleted:    .vscode/extensions.json
+#	deleted:    apps/.gitkeep
+#	deleted:    libs/.gitkeep
+#	deleted:    nx.json
+#	deleted:    package-lock.json
+#	deleted:    package.json
+#	deleted:    tools/generators/.gitkeep
+#	deleted:    tools/tsconfig.tools.json
+#	deleted:    tsconfig.base.json
+#
