@@ -18,6 +18,7 @@ namespace grpc_client_use.Controller
     [HttpGet]
     public ActionResult<GetReply> Get([FromQuery] GetRequest request)
     {
+      
        
        return Ok(articleClientService.Get(request));
          
