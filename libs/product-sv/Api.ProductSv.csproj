@@ -9,7 +9,7 @@
     <Authors>team</Authors>
     <LangeVersion>latest</LangeVersion> 
     <IsPackable>true</IsPackable>
-    <RepositoryUrl>https://github.com/NareeyaChenu/ProductLibrary/</RepositoryUrl>
+    <RepositoryUrl>https://github.com/NareeyaChenu/test-nuget-demo</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

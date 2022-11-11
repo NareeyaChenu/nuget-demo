@@ -1,5 +1,6 @@
 using cal_lib.Service;
 using Microsoft.AspNetCore.Mvc;
+using product_sv.Service;
 
 namespace Api.TestUse.Controllers;
 
@@ -23,7 +24,7 @@ public class WeatherForecastController : ControllerBase
     [Route("forecast")]
     public IEnumerable<WeatherForecast> Get()
     {
-      
+       Console.WriteLine(ProductServices.GetProduct()) ;
         Console.WriteLine(Calculate.CalulateMutiple(10));
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
         {
