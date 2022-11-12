@@ -4,6 +4,12 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>GrpcClient</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>team</Authors>
+    <LangeVersion>latest</LangeVersion> 
+    <IsPackable>true</IsPackable>
+    <RepositoryUrl>https://github.com/NareeyaChenu/test-nuget-demo</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

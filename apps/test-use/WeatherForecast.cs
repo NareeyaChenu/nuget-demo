@@ -11,4 +11,6 @@ public class WeatherForecast
     public string? Summary { get; set; }
     public string? Name { get; set; }
     public float? Number { get; set; }
+
+    public string? ArticleName {get; set;}
 }
